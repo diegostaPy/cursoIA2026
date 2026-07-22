@@ -22,30 +22,7 @@ Este repositorio centraliza:
 
 ```
 /clases/
-├── clase_01_intro/
-├── clase_02_python_ml/
-├── clase_03_regresion/
-├── clase_04_preprocesamiento/
-├── clase_05_clasificacion/
-├── clase_06_metricas/
-├── clase_07_regularizacion/
-├── clase_08_svm_arboles/
-├── clase_09_mlp/
-├── clase_10_transfer_learning/
-├── clase_11_reduccion_dim/
-├── clase_12_clustering/
-├── clase_13_github/
-├── clase_14_repaso/
-├── clase_15_cnn/
-├── clase_16_finetuning/
-├── clase_17_series/
-├── clase_18_forecasting/
-├── clase_19_deploy/
-├── clase_20_rl/
-├── clase_21_nlp_llm/
-├── clase_22_rag_agentes/
-├── clase_23_tutoria/
-├── clase_24_cierre/
+├── Semana_01/
 ```
 
 Cada carpeta puede incluir:
