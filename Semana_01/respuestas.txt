@@ -1,0 +1,173 @@
+Ejercicio 1: Completa los espacios en blanco
+
+    La IA es un esfuerzo por automatizar las tareas intelectuales normalmente realizadas por humanos.
+
+    Los tres factores clave para el auge de la IA son: datos, software, y hardware.
+
+Ejercicio 2: Clasifica las siguientes aplicaciones
+
+    Sistema de recomendacion basado en reglas: ML
+
+    Reconocimiento facial en tiempo real: DL
+
+    Prediccion de precio de vivienda con regresion lineal: ML
+
+    Traduccion automatica con Transformers: DL
+
+    Clasificacion de correos spam con SVM: ML
+
+Ejercicio 3: Identifica el tipo de aprendizaje
+
+    Un sistema que predice el precio de una vivienda: Supervisado
+
+    Un algoritmo que agrupa clientes por patrones de compra: No Supervisado
+
+    Un robot que aprende a caminar por prueba y error: Por Refuerzo
+
+    Un sistema de deteccion de spam en correos: Supervisado
+
+    Un modelo que reduce la dimensionalidad de imagenes: No Supervisado
+
+    Un agente que juega ajedrez mejorando con cada partida: Por Refuerzo
+
+    Un sistema que clasifica imagenes de gatos y perros: Supervisado
+
+    Un algoritmo que encuentra segmentos de clientes similares: No Supervisado
+
+Ejercicio 4: Matriz de Decision
+
+    Si hay datos etiquetados: Supervisado
+
+    Si no hay datos etiquetados y el agente interactua: Por Refuerzo
+
+    Si no hay datos etiquetados y el agente NO interactua: No Supervisado
+
+    Si la salida es continua: Regresion
+
+    Si la salida es discreta: Clasificacion
+
+Ejercicio 5: Aplicaciones de IA
+
+    Reconocimiento facial: Vision
+
+    Prediccion de demanda electrica: Series Temporales
+
+    Traduccion automatica: NLP
+
+    Vehiculo autonomo: Robotica y Control
+
+    Deteccion de fraudes en transacciones: Series Temporales (o clasificacion)
+
+    Segmentacion de imagenes medicas: Vision
+
+    Asistente virtual: NLP
+
+    Pronostico del clima: Series Temporales
+
+    Robot de ensamblaje: Robotica y Control
+
+    Analisis de sentimiento en redes sociales: NLP
+
+Ejercicio 6: Reflexion Etica (Respuesta guia)
+
+    Riesgos eticos en contratacion: Los modelos pueden perpetuar sesgos historicos, discriminando por genero, raza o edad. Pueden excluir a candidatos sin explicacion clara.
+
+    Mitigacion de sesgos: Usar datos representativos, auditar modelos periodicamente, implementar metricas de equidad, y tener supervisio humana en decisiones criticas.
+
+    Responsabilidad: Deberia ser compartida entre desarrolladores, usuarios y organizaciones. Es necesario establecer marcos legales y eticos claros.
+
+    Limites de la IA: Si, especialmente en areas como vigilancia masiva, armas autonomizadas y decisiones con impacto humano critico. La IA debe desarrollarse con principios eticos y beneficio social.
+
+Ejercicio 7: Disena un Proyecto de IA (Ejemplo guia)
+
+    Problema: Deteccion temprana de fallas en motores electricos industriales usando datos de sensores.
+
+    Tipo de aprendizaje: Supervisado (clasificacion de fallas) y No Supervisado (deteccion de anomalias).
+
+    Datos: Lecturas de sensores (vibracion, temperatura, corriente) con etiquetas de estado (normal, falla inminente, falla).
+
+    Modelos: SVM, Random Forest, LSTM (para series temporales).
+
+    Metricas: Precision, Recall, F1-Score, tiempo de deteccion.
+
+    Despliegue: API con FastAPI en Vercel, dashboard en Streamlit para monitoreo en tiempo real.
+
+Ejercicio 8: Herramientas
+
+    Manipular un DataFrame con datos de ventas: Pandas
+
+    Entrenar una red neuronal convolucional: TensorFlow o PyTorch
+
+    Visualizar la distribucion de una variable: Matplotlib o Seaborn
+
+    Entrenar una regresion lineal: Scikit-learn
+
+    Realizar operaciones con arrays multidimensionales: NumPy
+
+    Utilizar un modelo de lenguaje pre-entrenado: Hugging Face
+
+    Entrenar un modelo con computo en GPU: TensorFlow o PyTorch
+
+Ejercicio 9: Reflexion Final (Ejemplo guia)
+
+    En esta clase aprendi los fundamentos de la Inteligencia Artificial, sus tipos de aprendizaje, aplicaciones y herramientas. Comprendi la diferencia entre Machine Learning y Deep Learning, y como elegir el tipo de aprendizaje segun el problema.
+
+    Como aplicaria la IA en mecatronica: Podria implementar sistemas de mantenimiento predictivo usando sensores industriales, desarrollar robots autonomos con vision por computadora, o crear sistemas de control adaptativos que aprenden del proceso. La IA permite a las maquinas adaptarse a condiciones cambiantes y optimizar su rendimiento automaticamente.
+
+
+# Ejercicio 1
+respuesta_1 = "intelectuales"
+respuesta_2 = "datos, software, hardware"
+
+# Ejercicio 2
+aplicacion_1 = "ML"
+aplicacion_2 = "DL"
+aplicacion_3 = "ML"
+aplicacion_4 = "DL"
+aplicacion_5 = "ML"
+
+# Ejercicio 3
+ejercicio3_respuestas = {
+    1: "Supervisado",
+    2: "No Supervisado",
+    3: "Por Refuerzo",
+    4: "Supervisado",
+    5: "No Supervisado",
+    6: "Por Refuerzo",
+    7: "Supervisado",
+    8: "No Supervisado"
+}
+
+# Ejercicio 4
+matriz_decision = {
+    1: "Supervisado",
+    2: "Por Refuerzo",
+    3: "No Supervisado",
+    4: "Regresion",
+    5: "Clasificacion"
+}
+
+# Ejercicio 5
+ejercicio5_respuestas = {
+    1: "Vision",
+    2: "Series Temporales",
+    3: "NLP",
+    4: "Robotica y Control",
+    5: "Series Temporales",
+    6: "Vision",
+    7: "NLP",
+    8: "Series Temporales",
+    9: "Robotica y Control",
+    10: "NLP"
+}
+
+# Ejercicio 8
+herramientas = {
+    1: "Pandas",
+    2: "TensorFlow o PyTorch",
+    3: "Matplotlib o Seaborn",
+    4: "Scikit-learn",
+    5: "NumPy",
+    6: "Hugging Face",
+    7: "TensorFlow o PyTorch"
+}
